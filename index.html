@@ -7,10 +7,16 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="icon" href="data:," />
-    <title>Sakinah · Crowd Calm Table — سكينة</title>
-    <script type="module" crossorigin src="./assets/index-BgH_mjSc.js"></script>
+    <title>Steady Hands · Lumen Park</title>
+    <script type="module" crossorigin src="./assets/index-BPaVS4c0.js"></script>
   </head>
-  <body style="margin: 0">
+  <body style="margin: 0; background: #0b0a14">
+    <!-- يظهر حتى يجهز العالم: شي يتحرك إذا طال التحميل أكثر من 3 ثوانٍ (بلا ملفات) -->
+    <div id="boot" style="position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;background:radial-gradient(ellipse at 50% 60%,#3a2433 0%,#0b0a14 70%);color:#ffd9a0;font:600 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;z-index:5">
+      <div style="display:flex;gap:10px"><i class="d"></i><i class="d" style="animation-delay:.2s"></i><i class="d" style="animation-delay:.4s"></i></div>
+      <div>Lumen Park</div>
+      <style>#boot .d{width:12px;height:12px;border-radius:50%;background:#ffe2a8;display:block;animation:bob 1.2s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-10px);opacity:1}}</style>
+    </div>
     <div id="scene-container"></div>
   </body>
 </html>
